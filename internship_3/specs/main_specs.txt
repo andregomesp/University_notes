@@ -1,0 +1,38 @@
+Name:
+    Ingrecipe
+
+Main feature:
+    - User can search recipes based on the ingredients they have at hand.
+    - A list of ingredients is called a set.
+
+Secondary features:
+    User can:
+        - Favorite recipes
+        - Favorite ingredient set
+        - Limit prepare time
+        - Hot sets (optional)
+        - Recipes have average stars and number of people who endorsed it
+
+Main flow:
+    - User opens App
+    - Logo screen flashes (S-00)
+    - Logo fades and main menu appears (S-01) 
+    - User clicks on search button: Search interface appears (S-02)
+    - User sets ingredients and any additional filter: click on search. Recipe type list interface appears (S-03)
+    - User clicks on type of recipe. List of recipes appears (S-04)
+    - User clicks on recipe. Recipe screen shows up (S-05)
+
+Secondary flow:
+    - User clicks on favorite recipe button located on top. Favorite recipes list appears (S-06)
+    - User can click on favorite recipe to show recipe screen (S-05)
+    ---------------------------------------------------------------------------
+    - User clicks on favorite ingredient set button located on top. Favorite ingredient set list appears (S-07) 
+    - User can click on favorite ingredient set, recipe type list interface appears (S-03)
+    ---------------------------------------------------------------------------
+    (optional)
+    - User clicks on recommended set button. List of recommended set appears. (S-08)
+    - User clicks on recommended set. List of recipe type list appears (S-03)
+
+
+
+

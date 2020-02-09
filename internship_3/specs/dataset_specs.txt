@@ -1,0 +1,20 @@
+Data_type: Relational / SQLite
+Each database is unique to a cellphone. Descentralized
+
+Table: Recipe
+    - id: long
+    - minutes: int
+    - name: str
+    - procedure: str
+
+Table: ingredients
+    - id: long
+
+Table: favorite_recipe_set
+    - id: long
+    - name: str
+
+Table: favorite_recipes
+    - id: long
+    - *Recipe_id: long
+
