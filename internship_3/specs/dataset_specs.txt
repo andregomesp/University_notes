@@ -10,9 +10,18 @@ Table: Recipe
 Table: ingredients
     - id: long
 
+Table: Recipe_ingredients
+    U*Recipe_id: long
+    *ingredient_id
+
 Table: favorite_recipe_set
     - id: long
     - name: str
+
+Table: favorite_recipe_set_ingredients
+    -id: long
+    U*favorite_recipe_set_id: long
+    *ingredients_id: long
 
 Table: favorite_recipes
     - id: long
