@@ -1,4 +1,5 @@
-#include "./external_libs/GLFW/include/GLFW/glfw3.h"
+#include <GLEW/glew.h>
+#include <GLFW/glfw3.h>
 #include <iostream>
 using namespace std;
 int main() {

@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+
+                // Includes
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I${workspaceFolder}\\external_libs\\GLEW\\include\\",
+                "-I${workspaceFolder}\\external_libs\\GLFW\\include",
+
+                // Library paths
+                "-L${workspaceFolder}\\external_libs\\GLEW\\lib\\Release\\Win32",
+                "-L${workspaceFolder}\\external_libs\\GLFW\\lib-mingw-w64",
+
+                // Links
+                "-lopengl32",
+                "-lglut32",
+                "-lgdi32",
+                "-lglew32",
+                "-lglfw3"
+
+            ],
+            "options": {
+                "cwd": "C:\\MinGW\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
