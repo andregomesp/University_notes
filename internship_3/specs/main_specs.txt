@@ -1,6 +1,15 @@
 Name:
     Ingrecipe
 
+Benchmark: 
+    Paprika Recipe Manager
+
+Innovation:
+    Being able to find recipes with the ingredients you currently have
+
+Objective business:
+    
+
 Main feature:
     - User can search recipes based on the ingredients they have at hand.
     - A list of ingredients is called a set.
