@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, IonRouterOutlet } from '@ionic/react';
+import { IonIcon } from '@ionic/react';
 import {star, search} from 'ionicons/icons';
 interface ContainerProps {
     icon: string;

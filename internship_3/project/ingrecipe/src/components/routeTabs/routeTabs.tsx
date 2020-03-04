@@ -1,6 +1,5 @@
 import React from 'react';
-import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, IonRouterOutlet } from '@ionic/react';
-import {star, search} from 'ionicons/icons';
+import { IonTabs, IonTabBar, IonTabButton, IonLabel, IonRouterOutlet } from '@ionic/react';
 import {Route} from 'react-router-dom';
 import Home from '../../screens/home/Home';
 import Icon from '../icon/Icon';
