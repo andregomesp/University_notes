@@ -9,13 +9,14 @@ Table: Recipe
 
 Table: ingredients
     - id: long
+    - name: str
 
 Table: Recipe_ingredients
     U*Recipe_id: long
     *ingredient_id
 
 Table: favorite_recipe_set
-    - id: long
+      - id: long
     - name: str
 
 Table: favorite_recipe_set_ingredients
