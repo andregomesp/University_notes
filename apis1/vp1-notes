@@ -1,0 +1,70 @@
+key-el soft development:
+Notation, tools, process
+
+UML = unified modeling language
+General purpose language to object oriented modeling
+
+Vision 4 + 1
+Logic: problem and solution vocab., Implementation: mount and deploy system, 
+Process: parallel processing, cooperating between programs and synchronization, 
+Implantation: hardwares 
+User cases: behavior as seen by the end user
+
+
+Model: Captures real world view. Abstracts the system.
+
+Diagram: graphic representation of a collection of many modeling elements.
+
+User cases diagram---
+needs:
+    needs to considers user problems
+Functionalities:
+    simple descriptions of how system will solve user problems.
+Requirements:
+    Condition that must be meet by the system. Can be functional or not functional.
+
+User cases - technique to capture functional requirement from the system. Describes typical interaction user-system.
+
+User case is a group of scenarios tied by a common user.
+
+Actor - the user
+primary - started the action
+secondary - did not started
+
+A -> C - S
+
+Inclusion: mandatory repetitive step in an user case. Represents complex user cases.
+        <<include>>
+A -> C --> I
+
+Extension: optional user case
+A -> C <-- E
+
+Generalization: represents an hierarchy. Can be used for actors too. Parent is always at the tip of the arrow.
+A -> C <|- C1, C2
+
+Concrete -> Can be initialized by actors
+Abstract -> Can only be initialized by other user case.
+
+
+--- Diagrama de atividade ---
+Modelar fluxo de ações de um departamento, tarefa, caso de uso ou método
+
+Ação é uma tarefa a ser executada
+
+Conector: Portal
+Objeto: Retângulo aberto com nome dentro, informa que objeto está sendo passado.
+Pino: Parâmetros entrando e saindo da ação. Quadrado na lateral da ação.
+Decisão: divide em 2
+Intercalação: une 2 
+Separação: separa 2, barra, paralelo
+Junção: une uma separação
+
+Partição: define a responsabilidade na execução
+Subatividade: pé de galinha. função.
+Sinal de tempo: ampulheta
+Expansão: várias ações seguem o fluxo 
+Rejeição: X com circulo no meio. rejeita parte de uma atividade sem rejeitar ela toda
+
+
+
