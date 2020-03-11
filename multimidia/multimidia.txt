@@ -1,3 +1,4 @@
+Imagem
 Esquemas de cores
 1 bit por pixel -> preto e branco
 8 bits (3x3x2) bits
@@ -8,12 +9,13 @@ primeira -> processador envia dados ao barramento
 segunda -> chpset envia dados para a memória de video
 Terceira -> imagem é convertida pelo DAC de digital para analógico, suportado pelo monitor
 
+Conversores
 Conversor A/D -> responsável por digitalizar sinais sonoros 
 Conversor D/A faz o inverso
 
 Taxa de amostragem -> número de amostras feito no sinal analógico
 
-Proceso de quantização -> 
+Proceso de quantização -> Processo de compressão de imagem que comprime um range de valores em um único valor quantum
 
 Estereofonia -> efeito que faz com que o som seja gerado no mesmo recinto do usuário
 
@@ -52,4 +54,4 @@ Transdutor -> converte em sínal elétrico
 
 Bit-Map -> matriz de pixels
 Reconhecimento:
-Aquisição de imagme  -> pre-processamento -> segmentação -> extração de caracteristicas -> reconhecimento e interpretação
+Aquisição de imagem  -> pre-processamento -> segmentação -> extração de caracteristicas -> reconhecimento e interpretação
