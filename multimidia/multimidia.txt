@@ -1,0 +1,55 @@
+Esquemas de cores
+1 bit por pixel -> preto e branco
+8 bits (3x3x2) bits
+16 bits (5x6x5) bits
+
+fases de pRaca de video
+primeira -> processador envia dados ao barramento
+segunda -> chpset envia dados para a memória de video
+Terceira -> imagem é convertida pelo DAC de digital para analógico, suportado pelo monitor
+
+Conversor A/D -> responsável por digitalizar sinais sonoros 
+Conversor D/A faz o inverso
+
+Taxa de amostragem -> número de amostras feito no sinal analógico
+
+Proceso de quantização -> 
+
+Estereofonia -> efeito que faz com que o som seja gerado no mesmo recinto do usuário
+
+Estereo -> duas camadas de audio
+monaural -> umacada
+
+Microfone dinâmico de bobina móvel -> há um conjunto de bobnias ligadas ao diafragma. O movimento desse faz com que as bobinas se movam do imã, fazendo com que a corrente varie.
+
+Microfone piezoelétrico -> mic adquire carga, causa deformação.
+
+Digitalização -> através da taxa de amostragem, os pulsos de audio são convertidos em números binários através dos conversores A/D
+
+Filtro passa baixa -> cai
+baixa gauss -> grafico gauss
+passa alta -> sobe
+passa faixa -> caixa pra baixo
+rejeita faixa -> caixa pra cima
+
+Histograma -> conjunto de números indicando o percentual de pixels na imagem que apresentam nível de cinza.
+
+Equalização -> distribuir a cor de maneira uniforme entre o branco e o preto
+
+Limiarização -> Separar regiões de imagem entre fundo e objeto
+
+Som -> efeito audivel
+Audição -> resultado da percepção de som
+
+Intensidade -> amplitude e energia db
+Altura -> Frequência (agudo ou grave)
+Timbre -> Complexidade do som. Permite diferenciar notas
+Fase -> Ângulo inicial da onda. IMmperceptivel ao ouvido.
+
+Alto falante -> transforma corrente elétrica em vibração mecânica
+Transdutor -> converte em sínal elétrico
+
+
+Bit-Map -> matriz de pixels
+Reconhecimento:
+Aquisição de imagme  -> pre-processamento -> segmentação -> extração de caracteristicas -> reconhecimento e interpretação
