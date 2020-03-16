@@ -7,20 +7,21 @@ import "./Home.css";
 
 const categories: string[] = ['Pratos com arroz', 'Pratos com carne'];
 const photos: string[] = [ricePic, beefPic]
-const Home: React.FC = () => (
-    <>
+const Home: React.FC = () => {
+    console.log("loading home");
+    return (<>
         <IonContent
             scrollEvents={true}
          >
             <div className={"home-content-area"}>
             {categories.map((category, index) => {
-                return <Card text={category} photo={photos[index]} />
+                return <Card key={index} text={category} photo={photos[index]} />
             })}
             </div>
             
         </IonContent>
 
-    </>
-)
+    </>)
+}
 
 export default Home;

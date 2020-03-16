@@ -1,8 +1,24 @@
-import { SQLite } from '@ionic-native/sqlite';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
-export function get(id: number) {}
+let sqlDatabase: SQLiteObject;
+
+function createDB() {
     SQLite.create({
         name: "database.db",
         location: "default"
+    }).then((db: SQLiteObject) => {
+        sqlDatabase = db;
     })
-export function list(params: any) {}
+}
+
+export function get(params: any) {
+    if (sqlDatabase) {
+        sqlDatabase.executeSql("");
+    }
+}
+
+export function list(params: any) {
+    if (sqlDatabase) {
+
+    }
+}

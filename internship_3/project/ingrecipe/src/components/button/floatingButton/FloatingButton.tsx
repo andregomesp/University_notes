@@ -6,12 +6,13 @@ import Icon from '../../icon/Icon';
 interface ContainerProps {
     verticalPos: any,
     horizontalPos: any,
-    icon: string
+    icon: string,
+    onClick: any
 }
 const FloatingButton: React.FC<ContainerProps> = (props) => (
     <>
         <IonFab vertical={props.verticalPos} horizontal={props.horizontalPos}>
-            <IonFabButton>
+            <IonFabButton onClick={() => {props.onClick()}}>
                 <Icon icon={props.icon}/>
             </IonFabButton>
         </IonFab>

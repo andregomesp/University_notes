@@ -24,15 +24,17 @@ import RouteTabs from './components/routeTabs/routeTabs';
 import {
   IonReactRouter} from '@ionic/react-router';
 import Header from './components/header/header';
-let sections: {icon: string, section: string}[] = [
-  {icon: "search", section: "search"},
-  {icon: "star", section: "favorite"}];
+import Redirector from './components/routeTabs/redirector';
+
 const App: React.FC = () => (
-  <IonApp>
-    <Header/>
-    <IonReactRouter>
-      <RouteTabs sections={sections}/>
-    </IonReactRouter>
-  </IonApp>
+  <>
+    <IonApp>
+      <Header/>
+      <IonReactRouter>
+        <RouteTabs/>
+        <Redirector/>
+      </IonReactRouter>
+    </IonApp>
+  </>
 );
 export default App;

@@ -1,0 +1,24 @@
+.recipelist-screen {
+    padding-top: 4em;
+}
+
+.recipelist-item {
+    width: 22em;
+    height: 3.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.recipelist-label {
+    width: 15em;
+    text-overflow: ellipsis;
+}
+
+.recipelist-icon {
+    float: right;   
+}
+
+.recipelist-timeinfo {
+    float: right;
+}

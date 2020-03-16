@@ -1,14 +1,16 @@
 import React from 'react';
 import { IonIcon } from '@ionic/react';
-import {star, search} from 'ionicons/icons';
+import {star, search, time} from 'ionicons/icons';
 interface ContainerProps {
     icon: string;
+    addedClass?: string;
 }
 
 function getIcon(icon: string) {
     let iconMap: any = {
         "star": star,
-        "search": search
+        "search": search,
+        "clock": time
     }
     return iconMap[icon]
 }
