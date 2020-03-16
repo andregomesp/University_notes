@@ -1,7 +1,11 @@
 import React from 'react';
 import {
   IonApp} from '@ionic/react';
-
+import {Route} from 'react-router-dom';
+import RecipeList from './screens/recipe/recipeList';
+import RecipeRead from './screens/recipe/recipeRead';
+import IngredientSelector from './screens/ingredientSelector/IngredientSelector';
+import Home from './screens/home/Home';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -33,6 +37,10 @@ const App: React.FC = () => (
       <IonReactRouter>
         <RouteTabs/>
         <Redirector/>
+        <Route exact path="/search" component={IngredientSelector}/>
+        <Route exact path="/recipeList" component={RecipeList}/>
+        <Route exact path="/recipeRead" component={RecipeRead}/>
+        <Route exact path="/" component={Home} />
       </IonReactRouter>
     </IonApp>
   </>

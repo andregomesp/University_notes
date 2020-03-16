@@ -8,7 +8,7 @@ Innovation:
     Being able to find recipes with the ingredients you currently have
 
 Objective business:
-    
+    To facilitate for its users to prepare a quick lunch    
 
 Main feature:
     - User can search recipes based on the ingredients they have at hand.

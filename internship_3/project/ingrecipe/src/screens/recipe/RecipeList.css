@@ -3,7 +3,7 @@
 }
 
 .recipelist-item {
-    width: 22em;
+    width: 85%;
     height: 3.2em;
     margin-left: 2em;
     margin-right: 2em;
@@ -11,12 +11,13 @@
 }
 
 .recipelist-label {
-    width: 15em;
+    width: 85%;
     text-overflow: ellipsis;
 }
 
 .recipelist-icon {
-    float: right;   
+    float: right;
+    position: absolute;   
 }
 
 .recipelist-timeinfo {

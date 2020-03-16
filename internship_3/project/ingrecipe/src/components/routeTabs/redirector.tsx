@@ -11,7 +11,7 @@ const Redirector: React.FC = (props) => {
                 props.history.push("/")
             } else if (redirectLink !== "" && redirectLink !== null) {
                 // @ts-ignore
-                props.history.push(redirectLink);
+                props.history.replace(redirectLink);
             }
         }
         redirect();
